@@ -1,0 +1,43 @@
+.merriweather{
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;    
+    font-style: normal;   
+}
+
+/* Shared Style */
+
+
+/* header style */
+header{
+    max-width: 1320px;
+    margin: 50px auto 120px auto;
+    
+}
+.header{
+    background-image: url(../images/Banner\ Image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 177px 344px;
+}
+
+.banner{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.banner-content{
+    max-width: 632px;
+    
+}
+
+.banner-subtitle{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-title{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* main styles */
+
