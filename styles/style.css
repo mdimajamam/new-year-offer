@@ -1,3 +1,8 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
 .merriweather{
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;    
@@ -5,28 +10,47 @@
 }
 
 /* Shared Style */
-
-
+.text-color{
+    color: rgba(255, 255, 255, 1);
+}
+.text-align{
+    text-align: center;
+}
+hr{
+    margin-left: 127px;
+    margin-right: 153px;
+}
 /* header style */
 header{
     max-width: 1320px;
-    margin: 50px auto 120px auto;
+    margin: 0px auto;
+    margin-top: 50px;
     
 }
 .header{
-    background-image: url(../images/Banner\ Image.png);
+    background:linear-gradient(to bottom, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%),url(../images/Banner\ Image.png);
     background-position: center;
-    background-size: cover;
-    padding: 177px 344px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 100px 344px;
+    border-radius: 16px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .banner{
+   
     display: flex;
     justify-content:center;
     text-align: center;
 }
 .banner-content{
+    
     max-width: 632px;
+    margin-bottom: 70px;
     
 }
 
@@ -40,4 +64,498 @@ header{
 }
 
 /* main styles */
+main{
+    
+    margin: 0px 140px;
+}
+
+main #New{
+    /* margin: 0px 140px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#New .year{
+    margin: 120px 258px;
+    height: 806px;
+    
+}
+
+.year{
+    text-align: center;
+    /* padding: 120px 259px; */
+    
+}
+.offer-1 h3{
+    opacity: 100%;
+    font-family: initial;
+    font-size: 88px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 1);
+    border-bottom: 48px;
+}
+.offer-2 h4{
+    opacity: 100%;
+    font-family: initial;
+    font-size: 24px;
+    font-weight: medium;
+    color: rgba(255, 0, 0, 1);
+    border-bottom: 16px;
+}
+.offer-2 h3{
+    opacity: 100%;
+    font-family: initial;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgba(7, 2, 17, 1);
+    border-bottom: 48px;
+}
+
+/* Welcome to midnight party */
+main #Welcome{
+    margin:120px 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Welcome{
+    background: linear-gradient(to right, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%), url(../images/Vectorrr.png);
+    
+    max-width: 1320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 140px 120px 140px;
+    border-radius: 16px;
+    /* margin-top: 120px;
+    margin-bottom: 120px; */
+    
+}
+.Welcome-midnight{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.title{
+    max-width: 642px;
+    max-height: 176px;
+    font-size: 64px;
+    font-weight: 900px;
+    margin-right: 55px;
+    margin-bottom: 24px;
+}
+.Welcome-midnight p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.description{
+    max-width: 697px;
+    max-height: 60px;
+    font-size: 18px;
+    font-weight: 400px;
+    opacity: 100%;
+    font-family: Inter;
+    margin-bottom: 48px;
+    padding: 24px 40px 48px auto;
+    
+}
+.group{
+    padding: 68px;
+    padding-right: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Welcome-midnight-1 .pp{
+    opacity: 100%;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 32px;
+    text-align: left;
+}
+
+/* park styles */
+ .neww{
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 344px;
+    border-radius: 16px;
+    height: 482px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 120px;
+
+    
+ }
+ .park{
+    
+    max-width: 550px;
+    border-radius: 16px;
+    
+    justify-content:center;
+    text-align: center;
+ }
+ .park-content{
+    max-width: 550px;
+ }
+ .park-content  div{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 104px;
+    
+ }
+
+ .park-content  div span{
+    color: rgba(255, 0, 0, 1);
+ }
+ .park button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    padding: 16px 32px 16px 32px;
+ }
+
+ /* 2024 */
+ .column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .column-1{
+    padding: 140px 70px 104px 0px;
+ }
+ .column-1 h3{
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 24;
+    font-weight: 500;
+    line-height: 29px;
+    padding-bottom: 16px;
+    padding-right: 121px;
+    
+ }
+ .column-1 h2{
+    color: rgba(7, 2, 17, 1);
+    font-family: merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    padding-bottom: 22px;
+    padding-right: 65px;
+ }
+ .column-1 p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    
+ }
+ .column-2{
+    padding: 0px 70px 118px 0px;
+    margin-right: 170px;
+    margin-left: 70px;
+ }
+ .column-2 img{
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+ }
+
+ /* .column-3{
+    
+ } */
+ .column-3 h2{
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-right: 150px;
+    margin-bottom: 16px;
+ }
+ .column-3 p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin-bottom: 30px;
+ }
+ .column-3 img{
+    
+    margin-right: 136px;
+    margin-bottom: 11px;
+ }
+
+/* holiday */
+
+#holiday{
+    margin-bottom: 120px;
+}
+
+.subtitle{
+    color: rgba(7, 2, 17, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 16px;
+
+}
+.Sale50-content{
+    margin: 0px 126px 64px 126px;
+}
+.title{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom:28px;
+}
+.title span{
+    color:rgba(255, 0, 0, 1);
+}
+.description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    
+}
+
+/* Awesome */
+
+#Awesome{
+    
+    height: 1163px;
+    margin-bottom: 120px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+
+}
+
+.BEST-GIFTS h3{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    
+    
+}
+.BEST-GIFTS h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    
+    
+    
+}
+.BEST-GIFTS p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+    width: 896px;
+    
+    
+
+}
+.column0{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-size: cover;
+    
+}
+.column0 .column-1a{
+    margin-right: 24px;
+}
+
+.column0 .column-1a div{
+    margin-top: 24px;
+}
+.column0 .column-2a{
+    margin-right: 24px;
+}
+.column0 .column-2a div{
+    margin-top: 24px;
+}
+
+.column0 .column-3a div{
+    margin-top: 24px;
+}
+
+/* Email */
+
+#email{
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.subscribe{
+    justify-content: center;
+    text-align: center;
+    /* padding: 80px 212px 200px; */
+    
+}
+.subscribe-content{
+    border-bottom: 48px;
+}
+.subscribe-content img{
+    justify-content: center;
+    text-align: center;
+    padding: 0px 373px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    
+}
+
+.subscribe-content h1{
+    color: rgba(7, 2, 17, 1);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 22px;
+}
+.subscribe-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 896px;
+    margin-bottom: 48px;
+    
+}
+
+
+.subscribe form input{
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+.subscribe form button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    
+    text-align: center;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    padding: 24px 56px;
+}
+
+/* footer */
+#footer{
+    background: rgb(7, 2, 17);
+    
+}
+#footer .big img{
+    margin-right: 24px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px 275px 50px 140px;
+    
+}
+.footer-content p{
+    max-width:  1185px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer-content ul li p img{
+    
+    padding:0px 16px;
+}
+.footer-content .content{
+    width: 375px;
+    margin-right: 560px;
+
+}
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 500px 48px 500px;
+}
+.Building{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px 275px 50px 140px;
+    
+}
+.Building .ding{
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-right: 880px;
+}
+.Building .buil{
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
 
