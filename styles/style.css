@@ -30,11 +30,11 @@ header{
 .header{
     background:linear-gradient(to bottom, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%),url(../images/Banner\ Image.png);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 344px;
     border-radius: 16px;
-    height: 600px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
